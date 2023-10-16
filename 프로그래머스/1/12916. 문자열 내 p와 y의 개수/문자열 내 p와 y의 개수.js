@@ -1,20 +1,7 @@
-function solution(s){
-    let [countP, countY] = [0, 0];
-    
-    for (let char of s.toLowerCase()) {
-        if (char === 'p') {
-            countP+=1;
-        } else if (char === 'y') {
-            countY+=1;
-        } else continue;
-    }
-    
-    if (countP === countY) {
-        return true;
-    } else return false;
-}
+function solution(s) {
+  // 문자열을 모두 소문자로 변환
+  s = s.toLowerCase();
 
-// 소문자로 바꾸고
-// 문자열을 돌면서
-// p와 y개수를 돌고
-// 개수가 같거나 
+  // 'p'와 'y'를 필터링한 후 배열의 길이를 비교하여 반환
+  return s.split('p').length === s.split('y').length;
+}

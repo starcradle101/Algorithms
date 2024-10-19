@@ -1,12 +1,7 @@
 function solution(a, b) {
-    const [aCb, bCa] = [compute(a, b), compute(b, a)];
-    return (aCb > bCa ? aCb: bCa);
+    return (computeAandB(a, b) > computeAandB(b, a)) ? computeAandB(a, b) : computeAandB(b, a)
 }
 
-function compute(a, b) { 
-    return Number(a.toString() + b.toString());
-}
+const computeAandB = (a, b) => Number(String(a) + String(b));
 
-
-// 문자열로 계산하는 계산방법
-// 더 편하게 하려면 반환할때 Number로 바꿔서
+// 두 수를 문자열로 만들어서 더하는 연산

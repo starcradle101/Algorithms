@@ -1,10 +1,10 @@
 function solution(n) {
-    for (let i = 1; i < n; i++) {
-        if (n%i===1) {
-            return i;
+    var answer = 0;
+    for(let x = 1; x < n; x += 1) {
+        if (n % x === 1) {
+            answer += x;
+            break;
         }
     }
+    return answer;
 }
-
-// 1부터 n까지 증가하면서
-// 나누었을 때 나머지가 1이 되는 숫자를 찾는다.

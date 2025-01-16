@@ -1,17 +1,8 @@
 function solution(a, b) {
-    let sum = 0;
-    
-    if (a === b) {
-        return a;
-    } else if (a > b) {
-        for (let i = b; i <= a; i++) {
-            sum += i;        
-        }
-        return sum;
-    } else {
-        for (let i = a; i<=b; i++) {
-            sum += i;
-        }
-        return sum;
+    let answer = 0;
+    const [start, end] = [Math.min(a, b), Math.max(a, b)];
+    for (let i = start; i <= end; i += 1) {
+        answer += i;
     }
+    return answer;
 }

@@ -1,8 +1,5 @@
 function solution(n) {
-    let squareRoot = Math.sqrt(n);
-    if(squareRoot === Math.floor(squareRoot)) {
-        return Math.pow(squareRoot + 1, 2);
-    }
+    const sqrt_n = Math.sqrt(n);
     
-    return -1;
+    return (sqrt_n === parseInt(sqrt_n)) ? (sqrt_n + 1) ** 2 : -1;
 }

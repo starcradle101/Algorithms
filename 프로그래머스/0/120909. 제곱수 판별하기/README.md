@@ -1,10 +1,10 @@
 # [level 0] 제곱수 판별하기 - 120909 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120909) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120909?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.03 ms
+메모리: 64 MB, 시간: 5.33 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 09일 20:54:13
+2025년 07월 04일 23:46:31
 
 ### 문제 설명
 

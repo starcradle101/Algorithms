@@ -1,10 +1,10 @@
 # [level 0] 양꼬치 - 120830 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120830) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120830?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 33.1 MB, 시간: 0.04 ms
+메모리: 63.8 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 22일 09:20:56
+2025년 07월 04일 23:27:52
 
 ### 문제 설명
 

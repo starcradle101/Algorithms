@@ -1,10 +1,10 @@
 # [level 0] 문자열 정렬하기 (1) - 120850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 33.3 MB, 시간: 0.06 ms
+메모리: 65.8 MB, 시간: 5.23 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 02일 17:20:26
+2025년 07월 05일 19:17:50
 
 ### 문제 설명
 

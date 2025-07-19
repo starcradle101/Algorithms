@@ -1,10 +1,10 @@
 # [level 0] 두 수의 합 구하기 - 120802 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) 
 
 ### 성능 요약
 
-메모리: 62.3 MB, 시간: 0.02 ms
+메모리: 62.9 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 04일 23:25:16
+2025년 07월 20일 02:02:04
 
 ### 문제 설명
 
